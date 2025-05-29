@@ -112,3 +112,13 @@ nav:
       - Automation/ExecuteTheWorkflow.md
     - Time For A Break:
       - TimeForABreak/index.md
+    - Server Inventory:
+      - ServerInventory/index.md
+    - Troubleshooting:
+      - docs/Troubleshooting/ConnectToVPN.md
+      - docs/Troubleshooting/GetTheOSIPAndStartAPing.md
+      - docs/Troubleshooting/BladeRediscovery.md
+      - docs/Troubleshooting/DecommissionAndRecommission.md
+      - docs/Troubleshooting/PowerCycleChassisSlot.md
+      - docs/Troubleshooting/RebootManagementController.md
+      - docs/Troubleshooting/TestingVNICFailover.md
