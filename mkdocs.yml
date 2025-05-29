@@ -60,6 +60,7 @@ markdown_extensions:
 
 nav:
   - Lab Guide:
+    - labguide.md
     - Disclaimer: disclaimer.md
     - Scenario: scenario.md
     - Network Diagram: NetworkDiagram.md
