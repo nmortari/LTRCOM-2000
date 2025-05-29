@@ -96,8 +96,8 @@ nav:
     - Network Diagram:
       - NetworkDiagram/index.md
     - Connecting to the Lab Components:
-      - LabComponents/1-ConnectToIntersight.md
-      - LabComponents/2-CommandPaletteUserLabel.md
+      - LabComponents/ConnectToIntersight.md
+      - LabComponents/CommandPaletteUserLabel.md
     - Templates and Cloning:
       - TemplatesAndCloning/Introduction.md
       - TemplatesAndCloning/Cloning.md
