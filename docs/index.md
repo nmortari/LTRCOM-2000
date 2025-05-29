@@ -1,6 +1,5 @@
-# Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# LTRCOM-2000
+# From Chaos to Clarity: UCS X-Series Guide for Success
 
 ## Commands
 
