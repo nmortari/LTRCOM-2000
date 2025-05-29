@@ -55,3 +55,12 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+nav:
+  - Lab Guide:
+    - Disclaimer: disclaimer.md
+    - Scenario: scenario.md
+    - Network Diagram: NetworkDiagram.md
+    - Connecting to the Lab Components:
+      - labcomponents/ConnectToIntersight.md
+      - labcomponents/CommandPalleteUserLabel.md
