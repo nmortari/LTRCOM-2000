@@ -81,8 +81,9 @@ nav:
   - Lab Guide:
     - labguide.md
     - Disclaimer:
-      - Disclaimer/disclaimer.md
-    - Scenario: scenario.md
+      - Disclaimer/index.md
+    - Scenario:
+      - Scenario/index.md
     - Network Diagram: NetworkDiagram.md
     - Connecting to the Lab Components:
       - labcomponents/ConnectToIntersight.md
