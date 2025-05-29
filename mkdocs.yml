@@ -27,7 +27,7 @@ theme:
     - navigation.tracking
     - navigation.path
     - navigation.indexes
-    - navigation.expand
+    # - navigation.expand
     - navigation.sections
     - toc.follow
 
