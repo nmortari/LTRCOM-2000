@@ -115,10 +115,15 @@ nav:
     - Server Inventory:
       - ServerInventory/index.md
     - Troubleshooting:
-      - docs/Troubleshooting/ConnectToVPN.md
-      - docs/Troubleshooting/GetTheOSIPAndStartAPing.md
-      - docs/Troubleshooting/BladeRediscovery.md
-      - docs/Troubleshooting/DecommissionAndRecommission.md
-      - docs/Troubleshooting/PowerCycleChassisSlot.md
-      - docs/Troubleshooting/RebootManagementController.md
-      - docs/Troubleshooting/TestingVNICFailover.md
+      - Troubleshooting/ConnectToVPN.md
+      - Troubleshooting/GetTheOSIPAndStartAPing.md
+      - Troubleshooting/BladeRediscovery.md
+      - Troubleshooting/DecommissionAndRecommission.md
+      - Troubleshooting/PowerCycleChassisSlot.md
+      - Troubleshooting/RebootManagementController.md
+      - Troubleshooting/TestingVNICFailover.md
+    - Metrics:
+      - Metrics/ServerMetrics.md
+      - Metrics/Explorer.md
+    - Related Sessions At Cisco Live:
+      - RelatedSessions/index.md
