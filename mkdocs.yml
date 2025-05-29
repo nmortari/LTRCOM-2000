@@ -25,6 +25,7 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.path
+    - navigation.indexes
     - toc.follow
 
 markdown_extensions:
