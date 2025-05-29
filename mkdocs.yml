@@ -106,3 +106,9 @@ nav:
       - TemplatesAndCloning/CreateUCSServerProfileFromTemplate.md
     - Repository:
       - Repository/index.md
+    - Automation:
+      - Automation/CreateANewWorkflow.md
+      - Automation/ComposeTheWorkflow.md
+      - Automation/ExecuteTheWorkflow.md
+    - Time For A Break:
+      - TimeForABreak/index.md
