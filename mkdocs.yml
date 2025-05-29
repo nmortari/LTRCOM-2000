@@ -104,3 +104,5 @@ nav:
       - TemplatesAndCloning/VerifyTheNewlyCreatedClone.md
       - TemplatesAndCloning/ChangeTheUCSServerProfileTemplate.md
       - TemplatesAndCloning/CreateUCSServerProfileFromTemplate.md
+    - Repository:
+      - Repository/index.md
