@@ -98,3 +98,9 @@ nav:
     - Connecting to the Lab Components:
       - LabComponents/1-ConnectToIntersight.md
       - LabComponents/2-CommandPaletteUserLabel.md
+    - Templates and Cloning:
+      - TemplatesAndCloning/Introduction.md
+      - TemplatesAndCloning/Cloning.md
+      - TemplatesAndCloning/VerifyTheNewlyCreatedClone.md
+      - TemplatesAndCloning/ChangeTheUCSServerProfileTemplate.md
+      - TemplatesAndCloning/CreateUCSServerProfileFromTemplate.md
