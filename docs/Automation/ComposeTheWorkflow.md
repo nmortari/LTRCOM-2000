@@ -89,3 +89,91 @@ The green banner indicates the workflow has been saved:
 However, you can also see there are 2 errors found! and the workflow transitioned into the **Invalid** state:
 
 ![Compose The Workflow 10](./ComposeTheWorkflow10.png "Compose The Workflow 10")
+
+What's the problem here?
+The **Set Server to Server Profile** task is used in the workflow but it has two mandatory inputs (**Profile** and **Server**) to which we have not assigned a value.
+This means the workflow cannot be executed, although saved successfully.
+Let's fix this and move forward with the workflow definition, let's assign a value to the **Profile** and **Server** inputs for the **Set Server to Server Profile task**.
+
+For the **Profile** input, click on **Map**.
+This time we are using a different type of mapping: **Direct Mapping**. As mentioned, we can make this value dynamic, so we are going to map this value to the **Profile** output of the **New Server Profile from Template** task. After all, we can't know the ID of the new profile in advance before it gets created!
+
+![Compose The Workflow 11](./ComposeTheWorkflow11.png "Compose The Workflow 11")
+
+As usual, click on the **Map** button in the bottom right corner to confirm the mapping.
+
+For the **Server** Input, we will again use **Direct Mapping**, however this time we will create a **Workflow Input** inline, as we want the user to specify what is the target server before the workflow gets executed.
+
+Click on the **Map** button, then select **Direct Mapping**, **Workflow Input**, **Add Workflow Input** as shown below:
+
+![Compose The Workflow 12](./ComposeTheWorkflow12.png "Compose The Workflow 12")
+
+A new form will open.
+You can notice all fields have been automatically filled with the right values based on the input type.
+Understanding all fields of this specific data type is out of scope for this lab. If you want you can have a look, when done click on the **Add** button, then **Map** at the bottom right corner to confirm.
+
+You should now be moved to the canvas again. Let's have a look at the **General** tab of the workflow:
+
+![Compose The Workflow 13](./ComposeTheWorkflow13.png "Compose The Workflow 13")
+
+Under **Workflow Input** you can now see the new input we just created. You can also check the **Preview** section, which shows a preview of the user experience at workflow execution, where in this case they can only specify a **Server** before starting the workflow execution.
+
+![Compose The Workflow 14](./ComposeTheWorkflow14.png "Compose The Workflow 14")
+
+Let's **Save** again. All errors disappeared and the workflow transitioned to the **Valid** state. This means that we can execute it! ...but not just yet :)
+
+![Compose The Workflow 15](./ComposeTheWorkflow15.png "Compose The Workflow 15")
+
+Now that you are familiar on how to use tasks and map their inputs, let's speed things up.
+
+* In Designer, drag the **Deploy Server Profile** task **after** the **Set Server to Server Profile** task
+* Inputs:
+    * **Profile**: Direct mapping to the **Task Output: New Server Profile from Template** task, Profile output
+    * **Reboot Immediately to Activate**: Static value and check the option. This will apply all changes before we move forward with the Operating System Install
+
+![Compose The Workflow 16](./ComposeTheWorkflow16.png "Compose The Workflow 16")
+
+* In the **Tools** panel, click on **Workflows** and drag the **Operating System Install** task (nested workflow) after the **Deploy Server Profile** task
+* Here are the Operating System Install task Inputs:
+    * **Server**: Direct mapping to the **Server** workflow input
+    * **OS Install Inputs**: create a new workflow input using **Direct Mapping** as you have done for the **Server** input on the **Set Server to Server Profile** task.
+    * Click on “**Add Workflow Input**”
+
+![Compose The Workflow 17](./ComposeTheWorkflow17.png "Compose The Workflow 17")
+
+* Click **Add**
+* **Map** it
+* **Save** the workflow and it should be valid again
+
+Move back to the **General** tab of the workflow, you should now have something like this:
+
+![Compose The Workflow 18](./ComposeTheWorkflow18.png "Compose The Workflow 18")
+
+In theory, we can now execute the workflow, however if you have a look at the **Preview** section at the bottom section, there is a ton of inputs to fill in! Sometimes, we want to simplify workflow definition and spare our users to provide unnecessary inputs. In a real-world scenario, this depends on who is supposed to execute workflows: power users may want to specify all bits and bytes, while entry level engineers may not even have the necessary domain knowledge, so we only expose a limited set of inputs.
+
+For this lab, let's use a specific feature for **Workflow Inputs**: default values.
+
+Edit the **OS Install Inputs** workflow input by clicking on the pen icon behind it:
+
+![Compose The Workflow 19](./ComposeTheWorkflow19.png "Compose The Workflow 19")
+
+Check **Set Default Value** option:
+
+![Compose The Workflow 20](./ComposeTheWorkflow20.png "Compose The Workflow 20")
+
+Basically, here you can set some defaults for our target users. In this specific case, those inputs will not even exposed. If you check the **Allow User Override** option as well, the default value will still be set but it will also be visible, and the user can override the value.
+In our case, we will leave the **Allow User Override** option **unchecked**.
+
+Let's set default values for the following sub-inputs, it works just like the **Static Value** input type mapping you already had the chance to work with:
+
+* **OS Image**: ESXi 8.0u1a
+* **Vendor**: VMware
+* **Installation Mode**: Cisco
+* **Vendor**: VMware
+* **NetworkDevice** (the management interface which will receive the mgt IP address): vmnic0
+* **SCU Image**: ucs-scu-6.3.2c.iso
+
+Click **Save** when done, then **Save** again in the top right corner to save and validate the workflow.
+In the **Preview** section, you can now see that we have much less inputs!
+
+Let's go ahead and execute the workflow.
