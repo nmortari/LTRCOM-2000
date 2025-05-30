@@ -4,4 +4,4 @@ Because Intersight is a SaaS platform, there is no need to use VPN to the physic
 
 Here is a very simplistic overview of the Network Diagram:
 
-![Network Diagram](NetworkDiagram/Network Diagram.png "This is a sample image.")
+![Network Diagram](NetworkDiagram/NetworkDiagram.png "This is a sample image.")
