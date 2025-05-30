@@ -31,9 +31,6 @@ theme:
     - navigation.sections
     - toc.follow
 
-plugins:
-  - glightbox
-
 markdown_extensions:
   - abbr
   - admonition
