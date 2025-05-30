@@ -8,6 +8,7 @@ In this lab activity, you will learn how to work with Templates and clones.
 After the creation of the Server Profiles, you will create an automated workflow to install an OS on the server.
 
 The flow of this lab will be:
+
 * Day-0: Server Configuration
 * Day-1: Deploying OS
 * Day-2: Metrics and Troubleshooting
