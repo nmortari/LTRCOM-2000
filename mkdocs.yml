@@ -107,6 +107,7 @@ nav:
     - Repository:
       - Repository/index.md
     - Automation:
+      - Automation/Introduction.md
       - Automation/CreateANewWorkflow.md
       - Automation/ComposeTheWorkflow.md
       - Automation/ExecuteTheWorkflow.md
