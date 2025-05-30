@@ -13,6 +13,8 @@ Policies, Templates and Server Profiles can be cloned.
 First you are going to **clone** a **server profile template** and then **make changes**. 
 Once it is a server profile template that you can use, you are going to derive this template.
 
-NOTE: 
+NOTE:
+
 **Do NOT delete DO_NOT_USE Template Profile.
+
 Do NOT delete or any server policy or vNIC policy without your -SRVx at the end, where x is your pod number.**
