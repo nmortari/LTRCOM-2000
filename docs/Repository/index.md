@@ -38,17 +38,19 @@ Click on **Add OS Image Link**
 
 ![Repository 3](./Repository3.png "Repository 3")
 
-Select the **X-Series-Configuration Organization**.
+Select the **X-Series-Configuration Organization**
+
 Select the **HTTP/S** option
+
 Enter this File Location: https://172.20.70.90/images/VMware-ESXi-8.0.U1a-21813344-Custom-Cisco-4.3.1-a.iso
 
 ![Repository 4](./Repository4.png "Repository 4")
 
-Click **Next**	
+Click **Next**
 Enter the following details
 
-Name: **SRVx-ESXi-8.0**
-Vendor: **VMware**
+Name: **SRVx-ESXi-8.0** 
+Vendor: **VMware**  
 Version: **ESXi 8.0 u1**
 
 ![Repository 5](./Repository5.png "Repository 5")
