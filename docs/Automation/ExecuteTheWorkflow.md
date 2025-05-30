@@ -28,11 +28,11 @@ Click **Select**
 * **Server**: This is the second time you specify the server, copy the server name you used before in the search, it will be easier to retrieve among all the others. This time the user label is not visible.
 Make sure both of the server names are the same and corresponding with the server name on your **User Work Sheet**.
 
-* **VLAN ID**:Lleave it empty as the traffic will be untagged
+* **VLAN ID**: Leave it empty as the traffic will be untagged
 * **IP configuration Type**: DHCP
 * **DHCP IP Version Type**: IPv4
 * **Hostname**: This is arbitrary. If possible use the SRVx, where x is your POD number.
-* **Root**: Although arbitrary as well, if possible use UCSX@Cisco123 which is the password for your account. This way in case of problems, proctors can easily help you 
+* **Root**: Although arbitrary as well, if possible use UCSX@Cisco123 which is the password for your account. This way in case of problems, proctors can easily help you
 * **Target Disk Type**: Local Disk
 
 Click on **Execute**. The workflow will take approximately 55 minutes to complete.
