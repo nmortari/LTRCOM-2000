@@ -23,9 +23,11 @@ If you scroll to the right, the user label is visible.
 **One note**: as you select the server, also copy its name, it will be easier for the next input as you need to specify the server twice.
 
 Click **Select**
+
 * This is how we coded the workflow and there is a way to expose this input only once. However, this will require more advanced capabilities like Go Templates which are out of scope for this lab
 * **Server**: This is the second time you specify the server, copy the server name you used before in the search, it will be easier to retrieve among all the others. This time the user label is not visible.
 Make sure both of the server names are the same and corresponding with the server name on your **User Work Sheet**.
+
 * **VLAN ID**:Lleave it empty as the traffic will be untagged
 * **IP configuration Type**: DHCP
 * **DHCP IP Version Type**: IPv4
