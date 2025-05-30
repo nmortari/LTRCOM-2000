@@ -17,3 +17,13 @@ Suffix Name for Cloned Policies and Pools should be **-SRVx**, where **x is your
 
 The clone name can be SRVx-ServerProfileTemplate, where **x is your pod number**.
 Set Tags to SRV:SRVx, **where x is your pod number**.
+
+![Cloning 3](./Cloning3.png "Cloning 3")
+
+Click **Clone**
+
+The process of creating the clone is about 10 seconds.
+Now you see the new UCS Server Profile Template that you can work with.
+
+
+![Cloning 4](./Cloning4.png "Cloning 4")
