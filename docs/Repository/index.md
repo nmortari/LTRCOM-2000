@@ -69,8 +69,10 @@ You can see there already is a link to an SCU image and that is what you will us
 
 Click on **Add SCU Link**
 
-Select the **X-Series-Configuration Organization**.
+Select the **X-Series-Configuration Organization**
+
 Select the **HTTP/S** option
+
 Enter this File Location: **https://172.20.70.90/images/ucs-scu-6.3.2c.iso**
 
 ![Repository 8](./Repository8.png "Repository 8")
