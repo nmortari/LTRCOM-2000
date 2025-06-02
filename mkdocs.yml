@@ -116,7 +116,7 @@ nav:
     - Server Inventory:
       - ServerInventory/index.md
     - Troubleshooting:
-      - Troubleshooting/index.md
+      - Troubleshooting/Introduction.md
       - Troubleshooting/ConnectToVPN.md
       - Troubleshooting/GetTheOSIPAndStartAPing.md
       - Troubleshooting/BladeRediscovery.md
