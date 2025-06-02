@@ -125,6 +125,7 @@ nav:
       - Troubleshooting/RebootManagementController.md
       - Troubleshooting/TestingVNICFailover.md
     - Metrics:
+      - Metrics/Introduction.md
       - Metrics/ServerMetrics.md
       - Metrics/Explorer.md
     - Related Sessions At Cisco Live:
