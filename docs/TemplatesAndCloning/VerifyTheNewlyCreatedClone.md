@@ -11,7 +11,7 @@ The view when Edit is clicked.
 Just verify that the Organization is X-Series-Configuration.
 Click **Next**.
 
-Verify if the policies that you see has the extension of **-SRVx**, where x is your pod number.
+Verify if the policies that you see has the extension of **-SRVxx**, where x is your pod number.
 
 ![Verify The Newly Created Clone 3](./VerifyClone3.png "Verify The Newly Created Clone 3")
 

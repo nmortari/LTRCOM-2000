@@ -17,4 +17,4 @@ NOTE:
 
 **Do NOT delete DO_NOT_USE Template Profile.**
 
-**Do NOT delete or any server policy or vNIC policy without your -SRVx at the end, where x is your pod number.**
+**Do NOT delete or any server policy or vNIC policy without your -SRVxx at the end, where x is your pod number.**

@@ -13,10 +13,10 @@ Select “Create new clones for all policies and pools inside of the destination
 
 Click Next
 
-Suffix Name for Cloned Policies and Pools should be **-SRVx**, where **x is your pod number**.
+Suffix Name for Cloned Policies and Pools should be **-SRVxx**, where **x is your pod number**.
 
 The clone name can be SRVx-ServerProfileTemplate, where **x is your pod number**.
-Set Tags to SRV:SRVx, **where x is your pod number**.
+Set Tags to SRV:SRVxx, **where x is your pod number**.
 
 ![Cloning 3](./Cloning3.png "Cloning 3")
 

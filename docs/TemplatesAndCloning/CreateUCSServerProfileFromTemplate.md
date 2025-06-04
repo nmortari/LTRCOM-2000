@@ -10,7 +10,7 @@ Do not assign it to a server and select **Assign Later**.
 
 The **Number of Profiles** to derive should be “**1**” and click **Next**.
 
-Rename it to: **SRVx-ServerProfile**, where **x is your POD number** and the **Organization** is **X-Series-Configuration**.
+Rename it to: **SRVxx-ServerProfile**, where **x is your POD number** and the **Organization** is **X-Series-Configuration**.
 
 ![Create UCS Server Profile From Template 3](./CreateUCSProfileFromTemplate3.png "Create UCS Server Profile From Template 3")
 
@@ -28,7 +28,7 @@ Look at the newly create UCS Server Profile.
 
 ![Create UCS Server Profile From Template 5](./CreateUCSProfileFromTemplate5.png "Create UCS Server Profile From Template 5")
 
-You will see **SRVx-ServerProfile** at the **Profiles / UCS Server Profiles**.
+You will see **SRVxx-ServerProfile** at the **Profiles / UCS Server Profiles**.
 
 NOTE:
 

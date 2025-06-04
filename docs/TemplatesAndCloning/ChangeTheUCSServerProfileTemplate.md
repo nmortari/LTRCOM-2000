@@ -15,7 +15,7 @@ If both of your vNIC-Template profile has a usage of 1, still follow the steps, 
 
 ![Change The Template 2](./ChangeTheTemplate2.png "Change The Template 2")
 
-Go to Policies and find the LAN-SRVX policy -> Click on edit -> Next.
+Go to Policies and find the LAN-SRVxx policy -> Click on edit -> Next.
 Find the vNic which is not linked and click on the 3 dots behind it and link it to the correct vNic Template
 
 **Do not** click on “Detach from Template”.
@@ -48,7 +48,7 @@ Select Pool and select **MAC-Pool** of the Shared Pool with Org **UCSX-LAB-RESOU
 
 Click **Save**
 
-**Repeat** these steps also for the vNIC-Template-B-SRVx, where X is your POD number.
+**Repeat** these steps also for the vNIC-Template-B-SRVxx, where X is your POD number.
 
 Go to the Templates tab on the left.
 

@@ -31,7 +31,7 @@ Make sure both of the server names are the same and corresponding with the serve
 * **VLAN ID**: Leave it empty as the traffic will be untagged
 * **IP configuration Type**: DHCP
 * **DHCP IP Version Type**: IPv4
-* **Hostname**: This is arbitrary. If possible use the SRVx, where x is your POD number.
+* **Hostname**: This is arbitrary. If possible use the SRVxx, where x is your POD number.
 * **Root**: Although arbitrary as well, if possible use UCSX@Cisco123 which is the password for your account. This way in case of problems, proctors can easily help you
 * **Target Disk Type**: Local Disk
 

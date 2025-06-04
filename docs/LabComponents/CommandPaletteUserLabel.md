@@ -20,7 +20,7 @@ Select **System -> Set User Label**
 
 ![Command Palette 3](./CommandPalette3.png "Command Palette 3")
 
-Set the User Label to **SRVx**, which is the <<User Label>> that you can find on your User Details Worksheet
+Set the User Label to **SRVxx**, which is the <<User Label>> that you can find on your User Details Worksheet
 
 ![Command Palette 4](./CommandPalette4.png "Command Palette 4")
 

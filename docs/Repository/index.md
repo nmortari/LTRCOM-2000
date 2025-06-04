@@ -47,7 +47,7 @@ Enter this File Location: https://172.20.70.90/images/VMware-ESXi-8.0.U1a-218133
 Click **Next**  
 Enter the following details
 
-Name: **SRVx-ESXi-8.0**  
+Name: **SRVxx-ESXi-8.0**  
 Vendor: **VMware**  
 Version: **ESXi 8.0 u1**  
 
@@ -77,7 +77,7 @@ Enter this File Location: **https://172.20.70.90/images/ucs-scu-6.3.2c.iso**
 
 Click **Next**
 
-Name: **SRVx-SCU-6.3.2c**  
+Name: **SRVxx-SCU-6.3.2c**  
 Version: **6.3.2c** (this is mandatory but not used yet, so what you enter doesn’t matter)  
 Supported Models: **All** (this is mandatory but not used yet, so what you enter doesn’t matter)  
 
