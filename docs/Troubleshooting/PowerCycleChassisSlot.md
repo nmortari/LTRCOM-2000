@@ -8,7 +8,7 @@ Instead of reseating the server in the slot you can try to power cycle the chass
 ! Before you do this step make sure that all workflows for your server are finished !
 
 In order to reset the chassis slot you must go to 
-Servers -> [[ ServerName ]] -> Click on the Chassis in the details section -> Actions -> Power Cycle Chassis slot
+Chassis -> [[Chassis Name Of Your Domain]] -> Click on the Chassis in the details section -> Actions -> Power Cycle Chassis slot
 
 ![Power Cycle Slot 1](./PowerCycleSlot1.png "Power Cycle Slot 1")
 
