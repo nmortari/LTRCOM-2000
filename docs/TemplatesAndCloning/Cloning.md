@@ -15,7 +15,7 @@ Click Next
 
 Suffix Name for Cloned Policies and Pools should be **-SRVxx**, where **x is your pod number**.
 
-The clone name can be SRVx-ServerProfileTemplate, where **x is your pod number**.
+The clone name can be SRVxx-ServerProfileTemplate, where **x is your pod number**.
 Set Tags to SRV:SRVxx, **where x is your pod number**.
 
 ![Cloning 3](./Cloning3.png "Cloning 3")

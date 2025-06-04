@@ -50,7 +50,7 @@ Under **Type of Mapping** select **Static Value**.
 
 Click on **Select Source Profile Template** to get the list of the configured profile templates as shown in the picture below.
 
-Select your student profile template “SRVX-ServerProfileTemplate” then click **Select** in the bottom right corner.
+Select your student profile template “SRVxx-ServerProfileTemplate” then click **Select** in the bottom right corner.
 
 ![Compose The Workflow 5](./ComposeTheWorkflow5.png "Compose The Workflow 5")
 
