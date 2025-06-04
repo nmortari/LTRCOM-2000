@@ -1,4 +1,4 @@
-# Introduction
+# Templates and Cloning: Introduction
 
 Each server does need a server profile. Instead of making a lot of the same server profile, you create a server template and derive this template multiple times.
 In a server profile template, vNIC and vHBA templates can be used.

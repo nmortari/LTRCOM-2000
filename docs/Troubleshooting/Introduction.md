@@ -1,4 +1,4 @@
-# Introduction
+# Troubleshooting: Introduction
 
 When you server is not showing up correctly in Intersight you might want to try some steps to correct the issue.
 

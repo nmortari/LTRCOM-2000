@@ -1,4 +1,4 @@
-# Introduction
+# Metrics: Introduction
 
 Metrics give you an idea of your environment and gives you data, which you can use for decisions.
 

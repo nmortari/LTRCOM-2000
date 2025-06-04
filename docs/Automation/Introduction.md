@@ -1,4 +1,4 @@
-# Introduction
+# Automation: Introduction
 
 In this lab activity, you will leverage the server profile template you created to onboard new servers in an automated fashion.
 
