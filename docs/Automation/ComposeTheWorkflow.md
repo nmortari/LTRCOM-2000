@@ -96,7 +96,8 @@ This means the workflow cannot be executed, although saved successfully.
 Let's fix this and move forward with the workflow definition, let's assign a value to the **Profile** and **Server** inputs for the **Set Server to Server Profile task**.
 
 For the **Profile** input, click on **Map**.
-This time we are using a different type of mapping: **Direct Mapping**. As mentioned, we can make this value dynamic, so we are going to map this value to the **Profile** output of the **New Server Profile from Template** task. After all, we can't know the ID of the new profile in advance before it gets created!  
+This time we are using a different type of mapping: **Direct Mapping**. As mentioned, we can make this value dynamic, so we are going to map this value to the **Profile** output of the **New Server Profile from Template** task. After all, we can't know the ID of the new profile in advance before it gets created!
+
 * **Input**: Direct Mapping
 * **Map To**: Task Output
 * **Task Name**: New Server Profile From Template
@@ -116,6 +117,7 @@ You can notice all fields have been automatically filled with the right values b
 Understanding all fields of this specific data type is out of scope for this lab. If you want you can have a look, when done click on the **Add** button
 
 Final result:
+
 * **Input**: Direct Mapping
 * **Map To**: Workflow Input
 * **Input Name**: Server
