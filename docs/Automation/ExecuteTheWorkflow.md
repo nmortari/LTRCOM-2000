@@ -17,7 +17,7 @@ Then click on the context button of your workflow and **Execute** the workflow a
 
 These are the inputs we decided to expose to the users. Go ahead and fill the inputs with the following values. If not specified, leave it blank or keep the default:
 
-* Organization - X-Series-Configuration
+* **Organization**: X-Series-Configuration
 * **Server**: The server you have assigned. Please make sure you are not selecting someone else's server or it will compromise the rest of the lab for everyone.
 If you scroll to the right, the user label is visible.
 **One note**: as you select the server, also copy its name, it will be easier for the next input as you need to specify the server twice.
