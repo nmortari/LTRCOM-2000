@@ -141,7 +141,13 @@ Now that you are familiar on how to use tasks and map their inputs, let's speed 
 * In Designer, drag the **Deploy Server Profile** task **after** the **Set Server to Server Profile** task
 * Inputs:
     * **Profile**: Direct mapping to the **Task Output: New Server Profile from Template** task, Profile output
+        * **Input**: Direct Mapping
+        * **Map To**: Task Output
+        * **Task Name**: New Server Profile From Template
+        * **Output Name**: Profile
     * **Reboot Immediately to Activate**: Static value and check the option. This will apply all changes before we move forward with the Operating System Install
+        * **Input**: Static Value
+        * **Reboot Immediately To Activate**: Checked
 
 ![Compose The Workflow 16](./ComposeTheWorkflow16.png "Compose The Workflow 16")
 
