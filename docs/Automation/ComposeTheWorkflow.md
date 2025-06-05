@@ -146,8 +146,8 @@ Now that you are familiar on how to use tasks and map their inputs, let's speed 
 
 ![Compose The Workflow 17](./ComposeTheWorkflow17.png "Compose The Workflow 17")
 
-        * Click **Add**
-        * **Map** it
+* Click **Add**
+* **Map** it
 * **Save** the workflow and it should be valid again
 
 Move back to the **General** tab of the workflow, you should now have something like this:
