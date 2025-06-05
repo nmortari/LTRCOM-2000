@@ -136,13 +136,18 @@ Now that you are familiar on how to use tasks and map their inputs, let's speed 
 * In the **Tools** panel, click on **Workflows** and drag the **Operating System Install** task (nested workflow) after the **Deploy Server Profile** task
 * Here are the Operating System Install task Inputs:
     * **Server**: Direct mapping to the **Server** workflow input
+        * **Input**: Direct Mapping
+        * **Map To**: Workflow Input
+        * **Input Name**: Server
     * **OS Install Inputs**: create a new workflow input using **Direct Mapping** as you have done for the **Server** input on the **Set Server to Server Profile** task.
-    * Click on “**Add Workflow Input**”
+        * **Input**: Direct Mapping
+        * **Map To**: Workflow Input
+        * Click on “**Add Workflow Input**”
 
 ![Compose The Workflow 17](./ComposeTheWorkflow17.png "Compose The Workflow 17")
 
-* Click **Add**
-* **Map** it
+        * Click **Add**
+        * **Map** it
 * **Save** the workflow and it should be valid again
 
 Move back to the **General** tab of the workflow, you should now have something like this:
