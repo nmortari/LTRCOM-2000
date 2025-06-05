@@ -184,7 +184,7 @@ Check **Set Default Value** option:
 
 ![Compose The Workflow 20](./ComposeTheWorkflow20.png "Compose The Workflow 20")
 
-Basically, here you can set some defaults for our target users. In this specific case, those inputs will not even exposed. If you check the **Allow User Override** option as well, the default value will still be set but it will also be visible, and the user can override the value.
+Basically, here you can set some defaults for our target users. In this specific case, those inputs will not even be exposed. If you check the **Allow User Override** option as well, the default value will still be set but it will also be visible, and the user can override the value.
 In our case, we will leave the **Allow User Override** option **unchecked**.
 
 Let's set default values for the following sub-inputs, it works just like the **Static Value** input type mapping you already had the chance to work with:
