@@ -97,6 +97,9 @@ Let's fix this and move forward with the workflow definition, let's assign a val
 
 For the **Profile** input, click on **Map**.
 This time we are using a different type of mapping: **Direct Mapping**. As mentioned, we can make this value dynamic, so we are going to map this value to the **Profile** output of the **New Server Profile from Template** task. After all, we can't know the ID of the new profile in advance before it gets created!
+* **Input**: Direct Mapping
+* **Map To**: Task Output
+* **Task Name**: New Server Profile From Template
 
 ![Compose The Workflow 11](./ComposeTheWorkflow11.png "Compose The Workflow 11")
 
@@ -110,7 +113,14 @@ Click on the **Map** button, then select **Direct Mapping**, **Workflow Input**,
 
 A new form will open.
 You can notice all fields have been automatically filled with the right values based on the input type.
-Understanding all fields of this specific data type is out of scope for this lab. If you want you can have a look, when done click on the **Add** button, then **Map** at the bottom right corner to confirm.
+Understanding all fields of this specific data type is out of scope for this lab. If you want you can have a look, when done click on the **Add** button
+
+Final result:
+* **Input**: Direct Mapping
+* **Map To**: Workflow Input
+* **Input Name**: Server
+
+Click **Map** at the bottom right corner to confirm.
 
 You should now be moved to the canvas again. Let's have a look at the **General** tab of the workflow:
 
