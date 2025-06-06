@@ -44,11 +44,12 @@ And here is the result where you see the 8 FI’s.
 
 ![Explorer 8](./Explorer8.png "Explorer 8")
 
-Select:  
-**Network Interface** -> **Operational Link Speed** -> **Maximum  **
-**Filter By**: Host Type equals Fabric Interconnect  
-**Group By**: Host Name  
-**Limit**: 5
+Select:
+
+* **Network Interface** -> **Operational Link Speed** -> **Maximum  **
+* **Filter By**: Host Type equals Fabric Interconnect  
+* **Group By**: Host Name  
+* **Limit**: 5
 
 ![Explorer 9](./Explorer9.png "Explorer 9")
 
@@ -66,7 +67,7 @@ To find the power usage of one chassis, you need to know the chassis identifier.
 
 One easy way to get this, is to go to the Chassis you want to know the details and select metrics.
 
-On the left, go to **Chassis** / Select **RTP91-FI6454-04-1** (Chassis name) / Click Metrics. (On the top)
+On the left, go to **Operate** -> **Chassis** / Select **RTP91-FI6454-04-1** (Chassis name) / Click **Metrics**. (On the top)
 
 Look for the **Power** with PSU1 as Endpoint.
 
