@@ -46,7 +46,7 @@ And here is the result where you see the 8 FI’s.
 
 Select:
 
-* **Network Interface** -> **Operational Link Speed** -> **Maximum**
+* **Metrics**: **Network Interface** -> **Operational Link Speed** -> **Maximum**
 * **Filter By**: Host Type equals Fabric Interconnect
 * **Group By**: Host Name
 * **Limit**: 5
