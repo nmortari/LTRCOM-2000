@@ -15,7 +15,8 @@ Keep in mind, when you have the Advantage License Tier option, the data is colle
 
 ![Explorer 2](./Explorer2.png "Explorer 2")
 
-For the first metrics, we are selecting Host Power and Status – Host Power – Maximum
+For the first metrics, we are selecting:  
+**Host Power and Status** -> **Host Power** -> **Maximum**
 
 ![Explorer 3](./Explorer3.png "Explorer 3")
 
@@ -43,10 +44,11 @@ And here is the result where you see the 8 FI’s.
 
 ![Explorer 8](./Explorer8.png "Explorer 8")
 
-Select Network Interface – Operational Link Speed – Maximum  
-Filter by: Host Type equals Fabric Interconnect  
-Group by: **Host Name**  
-Limit: **5**
+Select:  
+**Network Interface** -> **Operational Link Speed** -> **Maximum  **
+**Filter By**: Host Type equals Fabric Interconnect  
+**Group By**: Host Name  
+**Limit**: 5
 
 ![Explorer 9](./Explorer9.png "Explorer 9")
 
