@@ -60,7 +60,7 @@ From here, you can have more details on the workflow execution, including its ex
 
 Of course the operating system hasn't been installed yet, but more than likely we already have our profiles derived from the template and deployed to your server. Let's have a look.
 
-Navigate to **Configure**, **Profiles**, **UCS Server Profiles** as shown below:
+Navigate to **Configure** -> **Profiles** -> **UCS Server Profiles** as shown below:
 
 ![Execute The Workflow 4](./ExecuteTheWorkflow4.png "Execute The Workflow 4")
 
