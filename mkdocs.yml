@@ -130,3 +130,7 @@ nav:
       - Metrics/Explorer.md
     - Related Sessions At Cisco Live:
       - RelatedSessionsAtCiscoLive/index.md
+
+plugins:
+  - search
+  - print-site
